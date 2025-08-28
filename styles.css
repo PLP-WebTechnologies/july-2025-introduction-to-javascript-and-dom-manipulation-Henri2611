@@ -1,0 +1,71 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background: #f4f7fa; /* light background */
+  color: #333;
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50; /* deep bluegray */
+  text-align: center;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* Buttons */
+button {
+  margin-top: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db; /* blue */
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9; /* darker blue on hover */
+}
+
+/* Inputs */
+input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Section divs */
+div {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Dynamic list styling */
+#dynamicList {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#dynamicList li {
+  background: #ecf0f1;
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+/* Toggle text styling */
+#toggleText {
+  font-weight: bold;
+  color: #2c3e50;
+}
